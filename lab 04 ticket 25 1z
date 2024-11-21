@@ -1,0 +1,17 @@
+'''
+
+                            Online Python Compiler.
+                Code, Compile, Run and Debug python program online.
+Write your code in this editor and press "Run" button to execute it.
+
+'''
+
+s = 0
+
+for number in range(1,99):
+    # узнать, является ли число нечетным
+    if number % 2 != 0:
+        s += number
+
+print("Сумма нечетных чисел от 1 до 99:", s)
+
